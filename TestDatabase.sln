@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TestDatabase", "TestDatabase\TestDatabase.sqlproj", "{ADB50CE5-4409-41A9-A1ED-4F196643A5B7}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TestDatabase.Migration", "TestDatabase.Migration\TestDatabase.Migration.sqlproj", "{9FE478F0-C46C-403D-AB9A-22C021C3E5EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB50CE5-4409-41A9-A1ED-4F196643A5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB50CE5-4409-41A9-A1ED-4F196643A5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB50CE5-4409-41A9-A1ED-4F196643A5B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ADB50CE5-4409-41A9-A1ED-4F196643A5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB50CE5-4409-41A9-A1ED-4F196643A5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB50CE5-4409-41A9-A1ED-4F196643A5B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9FE478F0-C46C-403D-AB9A-22C021C3E5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE478F0-C46C-403D-AB9A-22C021C3E5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE478F0-C46C-403D-AB9A-22C021C3E5EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9FE478F0-C46C-403D-AB9A-22C021C3E5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE478F0-C46C-403D-AB9A-22C021C3E5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE478F0-C46C-403D-AB9A-22C021C3E5EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {468D18CA-071B-4F65-91D5-97B6C33415BE}
+	EndGlobalSection
+EndGlobal
